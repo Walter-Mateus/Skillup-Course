@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body, ul {
+    padding: 0;
+    margin: 0;
+    background-color:green;
+}
+
+li {
+    list-style: none;
+}
+
+#content {
+    
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    background: green; 
+}
+
+header img {
+    max-width: 200px;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ header ul a {
+    padding: 10px 15px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    
+ }
+
+ #container, #page {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: end;
+ }
+
+ 
+#page .product {
+    max-width: 235px;
+    text-align: center;
+    border:1px solid #ccc;
+    margin: 0 0 15px 15px;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page .product img {
+    max-width: 100%;
+}
+
+#page {
+    width: 75%;
+    justify-content: space-between;
+}
+
+#sidebar {
+    width: 25%;
+    border: 1px solid #ccc;
+    padding: 15px;
+
+}
+
+
+
+
+#page .product button {
+    background: yellow;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 22px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 05s;
+
+
+}
+
+#page .product button:hover {
+    background: greenyellow;
+}
+
+#sidebar ul li a {
+    display: block;
+    padding: 10px 15px;
+    background-color: yellow;
+    border: 1px solid #ccc;
+    margin:5px;
+    text-decoration: none;
+    color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:700px) {
+    #sidebar, #page {
+      width: 100%;
+}
+
+#page {
+    justify-content: center;
+  }
+ 
+}
