@@ -7,7 +7,7 @@
 body, ul {
     padding: 0;
     margin: 0;
-    background-color:green;
+    background-color:white;
 }
 
 li {
@@ -27,7 +27,7 @@ header {
     align-items: center;
     flex-wrap: wrap;
     margin: 15px 0;
-    background: green; 
+    background:black; 
 }
 
 header img {
